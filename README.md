@@ -23,7 +23,8 @@ while developing the script, class1 was assumed to be immune cells and class2 ca
 * Open the output tsv to determine what decimal point QuPath was using (if it is not . you need to specify)
 * Create new conda environment with all dependencies:
 
-```conda create -n graph_analysis -c conda-forge -c bioconda pandas numpy matplotlib libpysal networkx seaborn scipy geopandas alive-progress
+```bash
+conda create -n graph_analysis -c conda-forge -c bioconda pandas numpy matplotlib libpysal networkx seaborn scipy geopandas alive-progress
 ```
 
 * Activate your environment (start here if you already set the environment up)
